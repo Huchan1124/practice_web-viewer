@@ -9,7 +9,6 @@
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 <style>
-
     model-viewer {
         width: 400px;
         height: 400px;
@@ -19,10 +18,12 @@
 </style>
 
 <body>
-    <model-viewer rel="ar" src="./assets/piano/scene.gltf" camera-controls auto-rotate　
-        ar　ar-modes="webxr scene-viewer quick-look"  ios-src="./assets/piano/Casio_MT-55.usdz" xr-environment　>
+    <a rel="ar" href="./assets/piano/Casio_MT-55.usdz">
+        <model-viewer src="./assets/piano/scene.gltf" camera-controls auto-rotate　
+            ar　ar-modes="webxr scene-viewer quick-look" ios-src="./assets/piano/Casio_MT-55.usdz" xr-environment　>
 
-    </model-viewer>
+        </model-viewer>
+    </a>
 
 </body>
 
