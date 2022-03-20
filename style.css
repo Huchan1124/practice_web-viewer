@@ -9,7 +9,7 @@ model-viewer {
     text-align: center;
 }
 
-/* #ar-button {
+#ar-button {
     background-image: url('./assets/ViewInAR.svg');
     background-repeat: no-repeat;
     background-size: 20px 20px;
@@ -40,5 +40,4 @@ model-viewer {
 
 #ar-button:focus-visible {
     outline: 1px solid #4285f4;
-} */
-
+} 
