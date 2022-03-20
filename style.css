@@ -41,3 +41,9 @@ model-viewer {
 #ar-button:focus-visible {
     outline: 1px solid #4285f4;
 }
+
+#ar-button {
+    position: absolute;
+    bottom: 3vh;
+    left: 3vh;
+  }
