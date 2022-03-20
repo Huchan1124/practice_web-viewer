@@ -9,7 +9,7 @@ model-viewer {
     text-align: center;
 }
 
-#ar-button {
+.ar-button {
     background-image: url('./assets/ViewInAR.svg');
     background-repeat: no-repeat;
     background-size: 20px 20px;
@@ -19,7 +19,6 @@ model-viewer {
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
-    bottom: 132px;
     padding: 0px 16px 0px 40px;
     font-family: Roboto Regular, Helvetica Neue, sans-serif;
     font-size: 14px;
@@ -30,14 +29,14 @@ model-viewer {
     border: 1px solid #DADCE0;
 }
 
-#ar-button:active {
+.ar-button:active {
     background-color: #E8EAED;
 }
 
-#ar-button:focus {
+.ar-button:focus {
     outline: none;
 }
 
-#ar-button:focus-visible {
+.ar-button:focus-visible {
     outline: 1px solid #4285f4;
 } 
