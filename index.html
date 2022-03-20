@@ -30,8 +30,17 @@
         ar　ar-modes="webxr scene-viewer quick-look" ios-src="./assets/piano/Casio_MT-55.usdz" xr-environment　>
 
     </model-viewer>
-    <div class="ar-link">
+    <!-- <div class="ar-link">
         <a class="btn btn-warning fw-bold" rel="ar" href="./assets/piano/Casio_MT-55.usdz">AR模式</a>
+    </div> -->
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
     </div>
 
 
