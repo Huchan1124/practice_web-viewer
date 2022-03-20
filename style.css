@@ -8,8 +8,8 @@ model-viewer {
 .ar-link {
     text-align: center;
 }
-/* 
-#ar-button {
+
+/* #ar-button {
     background-image: url('./assets/ViewInAR.svg');
     background-repeat: no-repeat;
     background-size: 20px 20px;
