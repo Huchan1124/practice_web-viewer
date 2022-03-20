@@ -10,64 +10,20 @@
         integrity='sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=='
         crossorigin='anonymous' />
 </head>
-<style>
-    model-viewer {
-        width: 400px;
-        height: 300px;
-        margin: 0 auto;
-        background-color: transparent;
-    }
-
-    .ar-link {
-        text-align: center;
-    }
-
-    #ar-button {
-        background-image: url('./assets/ViewInAR.svg');
-        background-repeat: no-repeat;
-        background-size: 20px 20px;
-        background-position: 12px 50%;
-        background-color: #fff;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        white-space: nowrap;
-        bottom: 132px;
-        padding: 0px 16px 0px 40px;
-        font-family: Roboto Regular, Helvetica Neue, sans-serif;
-        font-size: 14px;
-        color: #4285f4;
-        height: 36px;
-        line-height: 36px;
-        border-radius: 18px;
-        border: 1px solid #DADCE0;
-    }
-
-    #ar-button:active {
-        background-color: #E8EAED;
-    }
-
-    #ar-button:focus {
-        outline: none;
-    }
-
-    #ar-button:focus-visible {
-        outline: 1px solid #4285f4;
-    }
-</style>
+<link rel="stylesheet" href="./style.css">
 
 <body>
-<!-- 
-    <model-viewer src="./assets/piano/scene.gltf" camera-controls auto-rotate　 ar　ar-modes=" scene-viewer quick-look"
-    quick-look-browsers="safari chrome" ios-src="./assets/piano/Casio_MT-55.usdz">
-    </model-viewer> -->
-    <model-viewer src="./assets/mammoth/source/mammoth.glb" camera-controls auto-rotate　 ar　ar-modes=" scene-viewer quick-look"
-    quick-look-browsers="safari chrome" ios-src="./assets/mammoth/Mammoth.usdz">
+    <model-viewer src="./assets/mammoth/source/mammoth.glb" camera-controls auto-rotate　
+        ar　ar-modes=" scene-viewer quick-look" quick-look-browsers="safari chrome"
+        ios-src="./assets/mammoth/Mammoth.usdz">
 
     </model-viewer>
+
+
     <div class="ar-link">
         <a class="btn btn-warning fw-bold" rel="ar" href="./assets/mammoth/Mammoth.usdz">AR模式(iOS)</a>
     </div>
+
 
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
@@ -81,7 +37,6 @@
 
 
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-    <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
 </body>
 
