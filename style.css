@@ -42,8 +42,7 @@ model-viewer {
     outline: 1px solid #4285f4;
 } 
 
-
-button{
+.hotspot-style {
     display: block;
     width: 20px;
     height: 20px;
@@ -51,9 +50,5 @@ button{
     border: none;
     background-color: blue;
     box-sizing: border-box;
-  }
+}
 
-  button[slot="hotspot-hand"]{
-    --min-hotspot-opacity: 0;
-    background-color: red;
-  }
