@@ -43,12 +43,10 @@ model-viewer {
 } 
 
 .hotspot-style {
-    display: block;
     width: 20px;
     height: 20px;
-    /* border-radius: 50px; */
     border: none;
+    /* border-radius: 50px; */
     background-color: blue;
-    box-sizing: border-box;
 }
 
