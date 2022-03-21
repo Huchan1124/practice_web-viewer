@@ -41,3 +41,19 @@ model-viewer {
 .ar-button:focus-visible {
     outline: 1px solid #4285f4;
 } 
+
+
+button{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    box-sizing: border-box;
+  }
+
+  button[slot="hotspot-hand"]{
+    --min-hotspot-opacity: 0;
+    background-color: red;
+  }
