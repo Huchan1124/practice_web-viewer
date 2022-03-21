@@ -55,7 +55,7 @@
 
             // console.log('Changing color to: ', color);
             // 解構賦值 陣列
-            const [material] = modelViewerColor.model.materials;
+            const [material] = modelViewerColor.model.materials;  // ===  const material = modelViewerColor.model.materials[0];
             // console.dir(modelViewerColor.model.materials)
             // setBaseColor() BaseColor 材質上色 
             material.pbrMetallicRoughness.setBaseColorFactor(color);
